@@ -99,6 +99,10 @@ public static String splitTrial3(String desc) {
         }
     }
 
+    public  long getTimeInMill(){
+        return System.currentTimeMillis();
+    }
+
    
 
 }

@@ -102,22 +102,22 @@ public class FOPPdfDemo {
 	 * @throws IOException
 	 * @throws FOPException
 	 * @throws TransformerException
-	 */
+	 *//*
 	public void convertToFO() throws IOException, FOPException, TransformerException {
 		// the XSL FO file
-		File xsltFile = new File("F:\\Temp\\templates.xsl");
+		File xsltFile = new File("Resources/templates.xsl");
 
-		/*
+		*//*
 		 * TransformerFactory factory = TransformerFactory.newInstance();
 		 * Transformer transformer = factory.newTransformer(new
 		 * StreamSource("F:\\Temp\\template.xsl"));
-		 */
+		 *//*
 
 		// the XML file which provides the input
 		StreamSource xmlSource = new StreamSource(new File("F:\\Temp\\Employees.xml"));
 
 		// a user agent is needed for transformation
-		/* FOUserAgent foUserAgent = fopFactory.newFOUserAgent(); */
+		*//* FOUserAgent foUserAgent = fopFactory.newFOUserAgent(); *//*
 		// Setup output
 		OutputStream out;
 
@@ -144,6 +144,6 @@ public class FOPPdfDemo {
 		} finally {
 			out.close();
 		}
-	}
+	}*/
 
 }
