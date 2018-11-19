@@ -60,7 +60,7 @@ public class FOPPdfDemo {
 		File configFile = new File("Resources/fop_config.xml");
 		
 		// the XML file which provides the input
-		StreamSource xmlSource = new StreamSource(new File("Resources//Employees.xml"));
+		StreamSource xmlSource = new StreamSource(new File("Resources//summary.xml"));
 
 		
 		// create an instance of fop factory

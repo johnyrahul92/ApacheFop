@@ -1,8 +1,11 @@
 package com;
 
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
+import javax.xml.transform.Result;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.stream.StreamResult;
+import javax.xml.transform.stream.StreamSource;
+import java.io.*;
 import java.util.Random;
 
 /**
@@ -16,45 +19,49 @@ public class TestMain {
     private static Random random = new Random();
 
 
-    public static void main(String []args) throws Exception {
-
-        /*XslUtil xslUtil = new XslUtil();
-        long timeNow= xslUtil.getTimeInMill();
-        System.out.println(xslUtil.getTimeInMill());
-        System.out.println(new Date(timeNow));
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTime(new Date(timeNow));
-        System.out.println("Calender - Time in milliseconds : " + calendar.getTimeInMillis());*/
+    public static void main(String[] args) throws Exception {
 
 
-
-       // String key=    randomString(10);
-        String key=    "oslj6nMy";
-
-
-         String plainText="5316447875478605";
-        System.out.println("Plain Text Number  = "+ plainText);
-        System.out.println("Random Number  = "+ key);
-
-
-
-        //String encrypted_value= AESAlgorithm.encyrpt(plainText,key);
-        //System.out.println("Encrypted String  = "+ encrypted_value);
-
-       // System.out.println("Decrypted String  = "+ AESAlgorithm.decrypt("KDhozFovbN69lx93bcA2OsuCWx54OqPVOOJiJ1E9Xgw=",key));
+        Reader fileReader = new FileReader(new File("Resources//summary.xml"));
+        BufferedReader bufReader = new BufferedReader(fileReader);
+        StringBuilder sb = new StringBuilder();
+        String line = bufReader.readLine();
+        while (line != null) {
+            sb.append(line).append("\n");
+            line = bufReader.readLine();
+        }
+        String xml2String = sb.toString();
+        System.out.println("XML to String using BufferedReader : ");
+        //System.out.println(xml2String);
 
 
+        //StreamSource xmlSource = new StreamSource(new File("Resources//summary.xml"));
+
+        StreamSource xmlSource = new StreamSource(new StringReader(xml2String));
+
+        File xsltFile = new File("Resources//summary_no_pc.xsl");
 
 
+        TransformerFactory factory = TransformerFactory.newInstance();
+        Transformer transformer = factory.newTransformer(new StreamSource(xsltFile));
 
-        
+        StringWriter outWriter = new StringWriter();
+
+        Result res = new StreamResult(outWriter);
+        transformer.transform(xmlSource, res);
+
+
+        StringBuffer sb1 = outWriter.getBuffer();
+
+
+        System.out.println(sb1.toString());
 
 
     }
 
-    public static String randomString(int length){
+    public static String randomString(int length) {
         StringBuilder b = new StringBuilder();
-        for(int i = 0; i < length; i++){
+        for (int i = 0; i < length; i++) {
             b.append(base.charAt(random.nextInt(base.length())));
         }
         return b.toString();
