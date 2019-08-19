@@ -23,6 +23,7 @@ public class TestRestPost {
     public static void main(String[] args) throws TransformerException {
         System.out.println("Helo");
         String url="https://testgbonline.e-gulfbank.com/T005/internet";
+        String sigUrl="http://10.20.17.65:7080/integration/signature-enquiry/signature-enquiry-list";
         RestTemplate restTemplate= new RestTemplate();
         MultiValueMap<String, String> map = new LinkedMultiValueMap<String, String>();
         map.add("fldLoginUserId", "DEVRETAIL4");
@@ -34,6 +35,9 @@ public class TestRestPost {
         map.add("fldHiddenTxnId", "TFC");
 
        ResponseEntity<String> response= restTemplate.postForEntity(url,map,String.class);
+
+      
+       
         System.out.println(response.getBody());
         
 

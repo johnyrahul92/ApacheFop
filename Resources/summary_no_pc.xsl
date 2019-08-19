@@ -3,6 +3,7 @@
     <xsl:variable name="i" select="1"/>
     <xsl:template match="/">
         {
+        "totalcasaamount": "<xsl:value-of select="string-length(faml/response/totalpositionresponsedto/totalcasaamount)"/>",
         "totalcasaamount": "<xsl:value-of select="faml/response/totalpositionresponsedto/totalcasaamount"/>",
         "totaltdamount": "<xsl:value-of select="faml/response/totalpositionresponsedto/totaltdamount"/>",
         "totalcreditamt": "<xsl:value-of select="faml/response/totalpositionresponsedto/udffields/udfdto[udfname='totalcreditamt']/udfvalue"/>",

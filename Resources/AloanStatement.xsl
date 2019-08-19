@@ -69,6 +69,8 @@
 							STATEMENT OF LOAN ACCOUNT
 						</fo:block>
 
+						
+
 						<fo:block margin-bottom="5px">
 							<fo:table font-size="8px">
 								<fo:table-column column-width="50mm" />
@@ -293,12 +295,12 @@
 											
 											
 											</xsl:if>
-											
+
 											<xsl:if test="type = 2">
 											<fo:table-cell  text-align="center" number-columns-spanned="3"  padding-top="2px">
 											<fo:block font-size="8pt"><xsl:value-of select="translate(desc,'...' ,'' )" /></fo:block>
 											</fo:table-cell>
-											
+
 											</xsl:if>
 											
 

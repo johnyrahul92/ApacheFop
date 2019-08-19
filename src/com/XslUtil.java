@@ -5,8 +5,6 @@ package com;
 
 
 import java.text.DateFormat;
-import java.text.NumberFormat;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.GregorianCalendar;
@@ -101,6 +99,17 @@ public static String splitTrial3(String desc) {
 
     public  long getTimeInMill(){
         return System.currentTimeMillis();
+    }
+
+
+    public String getDate(){
+
+
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+
+        return dateFormat.format(new Date());
+
+
     }
 
    

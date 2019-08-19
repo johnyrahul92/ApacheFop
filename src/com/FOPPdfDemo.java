@@ -56,11 +56,11 @@ public class FOPPdfDemo {
 		
 		DefaultConfigurationBuilder cfgBuilder = new DefaultConfigurationBuilder();
 		// the XSL FO file
-		File xsltFile = new File("Resources/AloanAmortization.xsl");
+		File xsltFile = new File("Resources/loan/loan_consent_form_PDF.xsl");
 		File configFile = new File("Resources/fop_config.xml");
 		
 		// the XML file which provides the input
-		StreamSource xmlSource = new StreamSource(new File("Resources//summary.xml"));
+		StreamSource xmlSource = new StreamSource(new File("Resources/loan/sample.xml"));
 
 		
 		// create an instance of fop factory
@@ -70,7 +70,7 @@ public class FOPPdfDemo {
 		
 		// Setup output
 		OutputStream out;
-		out = new java.io.FileOutputStream("Resources/ATloanAmortization.pdf");
+		out = new java.io.FileOutputStream("Resources/loan/loan_consent_form_PDF.pdf");
 
 		try {
 		//	Configuration cfg = cfgBuilder.build(getClass().getClassLoader().getResourceAsStream(configFile));
