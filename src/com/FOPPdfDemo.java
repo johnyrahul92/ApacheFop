@@ -27,7 +27,8 @@ public class FOPPdfDemo {
 	public static void main(String[] args) throws ConfigurationException {
 		FOPPdfDemo fOPPdfDemo = new FOPPdfDemo();
 		try {
-			fOPPdfDemo.convertToPDF();
+			//fOPPdfDemo.convertToPDF();
+			fOPPdfDemo.convertToFO();
 		} catch (FOPException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -102,26 +103,25 @@ public class FOPPdfDemo {
 	 * @throws IOException
 	 * @throws FOPException
 	 * @throws TransformerException
-	 *//*
+	 */
 	public void convertToFO() throws IOException, FOPException, TransformerException {
-		// the XSL FO file
-		File xsltFile = new File("Resources/templates.xsl");
 
-		*//*
-		 * TransformerFactory factory = TransformerFactory.newInstance();
-		 * Transformer transformer = factory.newTransformer(new
-		 * StreamSource("F:\\Temp\\template.xsl"));
-		 *//*
+
+
+
+
 
 		// the XML file which provides the input
-		StreamSource xmlSource = new StreamSource(new File("F:\\Temp\\Employees.xml"));
+		StreamSource xmlSource = new StreamSource(new File("Resources/xslt/CountrySpecificPurposeCodes.xml"));
 
-		// a user agent is needed for transformation
-		*//* FOUserAgent foUserAgent = fopFactory.newFOUserAgent(); *//*
+		File xsltFile = new File("Resources/xslt/sample.xsl");
+
+
+
 		// Setup output
 		OutputStream out;
 
-		out = new java.io.FileOutputStream("F:\\Temp\\temp.fo");
+		out = new java.io.FileOutputStream("Resources/xslt/temp.json");
 
 		try {
 			// Setup XSLT
@@ -142,8 +142,10 @@ public class FOPPdfDemo {
 			// PDF is created
 			transformer.transform(xmlSource, res);
 		} finally {
+
+
 			out.close();
 		}
-	}*/
+	}
 
 }

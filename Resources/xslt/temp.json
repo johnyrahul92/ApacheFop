@@ -1,0 +1,1009 @@
+
+        {
+        "paymentdetails" : [
+                    {
+                    "code": "ACM",
+                    "description": "Agency Commission"
+                    }
+                    ,
+                    {
+                    "code": "AES",
+                    "description": "Advance payment against EOS"
+                    }
+                    ,
+                    {
+                    "code": "AFA",
+                    "description": "Receipts or payment from personal resident?s bank account or deposits abroad"
+                    }
+                    ,
+                    {
+                    "code": "AFL",
+                    "description": "Receipts or payments from personal n-resident bank account in the UAE"
+                    }
+                    ,
+                    {
+                    "code": "ALW",
+                    "description": "Allowances"
+                    }
+                    ,
+                    {
+                    "code": "ATS",
+                    "description": "Air transport"
+                    }
+                    ,
+                    {
+                    "code": "BON",
+                    "description": "Bonus"
+                    }
+                    ,
+                    {
+                    "code": "CCP",
+                    "description": "Corporate Card Payment"
+                    }
+                    ,
+                    {
+                    "code": "CEA",
+                    "description": "Equity for the establishment of new company from residents abroad equity merger or acquisition of companies abroad from residents and participation to capital increases of related company abroad."
+                    }
+                    ,
+                    {
+                    "code": "CEL",
+                    "description": "Equity for the establishment of new company in the UAE from n-residents equity of merger or acquisition of companies in the UAE from n-residents participation to capital increase of related companies"
+                    }
+                    ,
+                    {
+                    "code": "CHC",
+                    "description": "Charitable Contributions"
+                    }
+                    ,
+                    {
+                    "code": "CIN",
+                    "description": "Commercial Investments"
+                    }
+                    ,
+                    {
+                    "code": "COM",
+                    "description": "Commission"
+                    }
+                    ,
+                    {
+                    "code": "COP",
+                    "description": "Compensation"
+                    }
+                    ,
+                    {
+                    "code": "CRP",
+                    "description": "Credit Card Payments"
+                    }
+                    ,
+                    {
+                    "code": "DCP",
+                    "description": "Pre-Paid Reloadable & Personalized Debit Card Payments"
+                    }
+                    ,
+                    {
+                    "code": "DIF",
+                    "description": "Debt instruments intragroup loans securities deposits foreign"
+                    }
+                    ,
+                    {
+                    "code": "DIL",
+                    "description": "Debt instruments intragroup loans securities deposits in the UAE"
+                    }
+                    ,
+                    {
+                    "code": "DIV",
+                    "description": "Dividend Payouts"
+                    }
+                    ,
+                    {
+                    "code": "DLA",
+                    "description": "Purchase and sales of foreign debt securities more than a year in a t related companies"
+                    }
+                    ,
+                    {
+                    "code": "DLL",
+                    "description": "Purchases and sales of securities issued by residents more than a year in t-related companies"
+                    }
+                    ,
+                    {
+                    "code": "DOE",
+                    "description": "Dividends on equity not intra group"
+                    }
+                    ,
+                    {
+                    "code": "DSA",
+                    "description": "Purchase and sales of foreign debt securities less than a year in a t related companies"
+                    }
+                    ,
+                    {
+                    "code": "DSL",
+                    "description": "Purchases and sales of securities issued by residents less than a year in t-related companies"
+                    }
+                    ,
+                    {
+                    "code": "EDU",
+                    "description": "Educational Support"
+                    }
+                    ,
+                    {
+                    "code": "EMI",
+                    "description": "Equated Monthly Instalments"
+                    }
+                    ,
+                    {
+                    "code": "EOS",
+                    "description": "End of Service"
+                    }
+                    ,
+                    {
+                    "code": "FAM",
+                    "description": "Family Support"
+                    }
+                    ,
+                    {
+                    "code": "FDA",
+                    "description": "Financial derivatives foreign"
+                    }
+                    ,
+                    {
+                    "code": "FDL",
+                    "description": "Financial derivatives in the UAE"
+                    }
+                    ,
+                    {
+                    "code": "FIA",
+                    "description": "Investment fund shares foreign"
+                    }
+                    ,
+                    {
+                    "code": "FIL",
+                    "description": "Investment fund shares in the UAE"
+                    }
+                    ,
+                    {
+                    "code": "FIS",
+                    "description": "Financial services"
+                    }
+                    ,
+                    {
+                    "code": "FSA",
+                    "description": "Equity other than investment fund shares in t related companies abroad"
+                    }
+                    ,
+                    {
+                    "code": "FSL",
+                    "description": "Equity other than investment fund shares in t-related companies in the UAE"
+                    }
+                    ,
+                    {
+                    "code": "GDS",
+                    "description": "Goods Bought or Sold"
+                    }
+                    ,
+                    {
+                    "code": "GMS",
+                    "description": "Processing repair and maintenance services on goods"
+                    }
+                    ,
+                    {
+                    "code": "GOS",
+                    "description": "Government goods and services embassies etc."
+                    }
+                    ,
+                    {
+                    "code": "GRI",
+                    "description": "Government related income taxes tariffs capital transfers etc."
+                    }
+                    ,
+                    {
+                    "code": "IFS",
+                    "description": "Information Services"
+                    }
+                    ,
+                    {
+                    "code": "IGD",
+                    "description": "Intra group dividends"
+                    }
+                    ,
+                    {
+                    "code": "IGT",
+                    "description": "INTER GROUP TRANSFER"
+                    }
+                    ,
+                    {
+                    "code": "IID",
+                    "description": "Intra group interest on debt"
+                    }
+                    ,
+                    {
+                    "code": "INS",
+                    "description": "Insurance services"
+                    }
+                    ,
+                    {
+                    "code": "IOD",
+                    "description": "Income on deposits"
+                    }
+                    ,
+                    {
+                    "code": "IOL",
+                    "description": "Income on loans"
+                    }
+                    ,
+                    {
+                    "code": "IPC",
+                    "description": "Charges for the use of intellectual property royalties"
+                    }
+                    ,
+                    {
+                    "code": "IPO",
+                    "description": "IPO Subscriptions"
+                    }
+                    ,
+                    {
+                    "code": "IRP",
+                    "description": "INTEREST RATE SWAP PAYMENTS"
+                    }
+                    ,
+                    {
+                    "code": "IRW",
+                    "description": "INTERST RATE UNWIND PAYMENTS"
+                    }
+                    ,
+                    {
+                    "code": "ISH",
+                    "description": "Income on investment funds shares"
+                    }
+                    ,
+                    {
+                    "code": "ISL",
+                    "description": "Interest on securities more than a year"
+                    }
+                    ,
+                    {
+                    "code": "ISS",
+                    "description": "Interest on securities less than a year"
+                    }
+                    ,
+                    {
+                    "code": "ITS",
+                    "description": "Computer Services"
+                    }
+                    ,
+                    {
+                    "code": "KAS",
+                    "description": "Leave Salary"
+                    }
+                    ,
+                    {
+                    "code": "LEA",
+                    "description": "Leasing abroad RFS repos on foreign securities"
+                    }
+                    ,
+                    {
+                    "code": "LEL",
+                    "description": "Leasing in the UAE RLS Repos on securities issued by residents"
+                    }
+                    ,
+                    {
+                    "code": "LIP",
+                    "description": "Loan Interest Payments"
+                    }
+                    ,
+                    {
+                    "code": "LLA",
+                    "description": "Loans - Drawings or Repayments on loans extended to n-residents - long term"
+                    }
+                    ,
+                    {
+                    "code": "LLL",
+                    "description": "Loans - Drawings or Repayments on foreign loans extended to residents - long term"
+                    }
+                    ,
+                    {
+                    "code": "LNC",
+                    "description": "Loan Charges"
+                    }
+                    ,
+                    {
+                    "code": "LND",
+                    "description": "Loan Disbursements"
+                    }
+                    ,
+                    {
+                    "code": "MCR",
+                    "description": "Monetary Claim Reimbursements Medical Insurance or Auto Insurance etc."
+                    }
+                    ,
+                    {
+                    "code": "MWI",
+                    "description": "MOBILE WALLET CASH IN"
+                    }
+                    ,
+                    {
+                    "code": "MWO",
+                    "description": "MOBILE WALLET CASH OUT"
+                    }
+                    ,
+                    {
+                    "code": "MWP",
+                    "description": "MOBILE WALLET PAYMENTS"
+                    }
+                    ,
+                    {
+                    "code": "OAT",
+                    "description": "OWN ACCOUNT TRNSFER"
+                    }
+                    ,
+                    {
+                    "code": "OTS",
+                    "description": "Other modes of transport"
+                    }
+                    ,
+                    {
+                    "code": "OVT",
+                    "description": "Overtime"
+                    }
+                    ,
+                    {
+                    "code": "PEN",
+                    "description": "Pension"
+                    }
+                    ,
+                    {
+                    "code": "PIN",
+                    "description": "Personal Investments"
+                    }
+                    ,
+                    {
+                    "code": "PIP",
+                    "description": "Pro?ts on Islamic products"
+                    }
+                    ,
+                    {
+                    "code": "PMS",
+                    "description": "Professional and management consulting services"
+                    }
+                    ,
+                    {
+                    "code": "POR",
+                    "description": "Refunds or Reversals on IPO subscriptions"
+                    }
+                    ,
+                    {
+                    "code": "POS",
+                    "description": "POS Merchant Settlement"
+                    }
+                    ,
+                    {
+                    "code": "PPA",
+                    "description": "Purchase of real estate abroad from residents"
+                    }
+                    ,
+                    {
+                    "code": "PPL",
+                    "description": "Purchase of real estate in the UAE from n-residents"
+                    }
+                    ,
+                    {
+                    "code": "PRP",
+                    "description": "PROFIT RATE SWAP PAYMENTS"
+                    }
+                    ,
+                    {
+                    "code": "PRR",
+                    "description": "Pro?ts or rents on real estate"
+                    }
+                    ,
+                    {
+                    "code": "PRS",
+                    "description": "Personal cultural audio visual and recreational services"
+                    }
+                    ,
+                    {
+                    "code": "PRW",
+                    "description": "PROFIT RATE UNWIND PAYMENTS"
+                    }
+                    ,
+                    {
+                    "code": "RDS",
+                    "description": "Research and development services"
+                    }
+                    ,
+                    {
+                    "code": "RNT",
+                    "description": "Rent Payments"
+                    }
+                    ,
+                    {
+                    "code": "SAA",
+                    "description": "Salary Advance"
+                    }
+                    ,
+                    {
+                    "code": "SAL",
+                    "description": "Salary"
+                    }
+                    ,
+                    {
+                    "code": "SCO",
+                    "description": "Construction"
+                    }
+                    ,
+                    {
+                    "code": "SLA",
+                    "description": "Loans - Drawings or Repayments on loans extended to n-residents - short term"
+                    }
+                    ,
+                    {
+                    "code": "SLL",
+                    "description": "Loans - Drawings or Repayments on foreign loans extended to residents - short term"
+                    }
+                    ,
+                    {
+                    "code": "STR",
+                    "description": "Travel"
+                    }
+                    ,
+                    {
+                    "code": "STS",
+                    "description": "Sea transport"
+                    }
+                    ,
+                    {
+                    "code": "SVI",
+                    "description": "STORED VALUE CARD CASH?IN"
+                    }
+                    ,
+                    {
+                    "code": "SVO",
+                    "description": "STORED VALUE CARD CASH-OUT"
+                    }
+                    ,
+                    {
+                    "code": "SVP",
+                    "description": "STORED VALUE CARD PAYMENTS"
+                    }
+                    ,
+                    {
+                    "code": "TCP",
+                    "description": "Trade credits and advances payable"
+                    }
+                    ,
+                    {
+                    "code": "TCR",
+                    "description": "Trade credits and advances receivable"
+                    }
+                    ,
+                    {
+                    "code": "TCS",
+                    "description": "Telecommunication Services"
+                    }
+                    ,
+                    {
+                    "code": "TKT",
+                    "description": "Tickets"
+                    }
+                    ,
+                    {
+                    "code": "TOF",
+                    "description": "Transfer of funds between persons Normal and Juridical"
+                    }
+                    ,
+                    {
+                    "code": "TTS",
+                    "description": "Technical trade-related and other business services"
+                    }
+                    ,
+                    {
+                    "code": "UTL",
+                    "description": "Utility Bill Payments"
+                    }
+                    ]
+        }
+    
+        {
+        "paymentdetails" : [
+                    {
+                    "code": "ACM",
+                    "description": "Agency Commission"
+                    }
+                    ,
+                    {
+                    "code": "AES",
+                    "description": "Advance payment against EOS"
+                    }
+                    ,
+                    {
+                    "code": "AFA",
+                    "description": "Receipts or payment from personal resident?s bank account or deposits abroad"
+                    }
+                    ,
+                    {
+                    "code": "AFL",
+                    "description": "Receipts or payments from personal n-resident bank account in the UAE"
+                    }
+                    ,
+                    {
+                    "code": "ALW",
+                    "description": "Allowances"
+                    }
+                    ,
+                    {
+                    "code": "ATS",
+                    "description": "Air transport"
+                    }
+                    ,
+                    {
+                    "code": "BON",
+                    "description": "Bonus"
+                    }
+                    ,
+                    {
+                    "code": "CCP",
+                    "description": "Corporate Card Payment"
+                    }
+                    ,
+                    {
+                    "code": "CEA",
+                    "description": "Equity for the establishment of new company from residents abroad equity merger or acquisition of companies abroad from residents and participation to capital increases of related company abroad."
+                    }
+                    ,
+                    {
+                    "code": "CEL",
+                    "description": "Equity for the establishment of new company in the UAE from n-residents equity of merger or acquisition of companies in the UAE from n-residents participation to capital increase of related companies"
+                    }
+                    ,
+                    {
+                    "code": "CHC",
+                    "description": "Charitable Contributions"
+                    }
+                    ,
+                    {
+                    "code": "CIN",
+                    "description": "Commercial Investments"
+                    }
+                    ,
+                    {
+                    "code": "COM",
+                    "description": "Commission"
+                    }
+                    ,
+                    {
+                    "code": "COP",
+                    "description": "Compensation"
+                    }
+                    ,
+                    {
+                    "code": "CRP",
+                    "description": "Credit Card Payments"
+                    }
+                    ,
+                    {
+                    "code": "DCP",
+                    "description": "Pre-Paid Reloadable & Personalized Debit Card Payments"
+                    }
+                    ,
+                    {
+                    "code": "DIF",
+                    "description": "Debt instruments intragroup loans securities deposits foreign"
+                    }
+                    ,
+                    {
+                    "code": "DIL",
+                    "description": "Debt instruments intragroup loans securities deposits in the UAE"
+                    }
+                    ,
+                    {
+                    "code": "DIV",
+                    "description": "Dividend Payouts"
+                    }
+                    ,
+                    {
+                    "code": "DLA",
+                    "description": "Purchase and sales of foreign debt securities more than a year in a t related companies"
+                    }
+                    ,
+                    {
+                    "code": "DLL",
+                    "description": "Purchases and sales of securities issued by residents more than a year in t-related companies"
+                    }
+                    ,
+                    {
+                    "code": "DOE",
+                    "description": "Dividends on equity not intra group"
+                    }
+                    ,
+                    {
+                    "code": "DSA",
+                    "description": "Purchase and sales of foreign debt securities less than a year in a t related companies"
+                    }
+                    ,
+                    {
+                    "code": "DSL",
+                    "description": "Purchases and sales of securities issued by residents less than a year in t-related companies"
+                    }
+                    ,
+                    {
+                    "code": "EDU",
+                    "description": "Educational Support"
+                    }
+                    ,
+                    {
+                    "code": "EMI",
+                    "description": "Equated Monthly Instalments"
+                    }
+                    ,
+                    {
+                    "code": "EOS",
+                    "description": "End of Service"
+                    }
+                    ,
+                    {
+                    "code": "FAM",
+                    "description": "Family Support"
+                    }
+                    ,
+                    {
+                    "code": "FDA",
+                    "description": "Financial derivatives foreign"
+                    }
+                    ,
+                    {
+                    "code": "FDL",
+                    "description": "Financial derivatives in the UAE"
+                    }
+                    ,
+                    {
+                    "code": "FIA",
+                    "description": "Investment fund shares foreign"
+                    }
+                    ,
+                    {
+                    "code": "FIL",
+                    "description": "Investment fund shares in the UAE"
+                    }
+                    ,
+                    {
+                    "code": "FIS",
+                    "description": "Financial services"
+                    }
+                    ,
+                    {
+                    "code": "FSA",
+                    "description": "Equity other than investment fund shares in t related companies abroad"
+                    }
+                    ,
+                    {
+                    "code": "FSL",
+                    "description": "Equity other than investment fund shares in t-related companies in the UAE"
+                    }
+                    ,
+                    {
+                    "code": "GDS",
+                    "description": "Goods Bought or Sold"
+                    }
+                    ,
+                    {
+                    "code": "GMS",
+                    "description": "Processing repair and maintenance services on goods"
+                    }
+                    ,
+                    {
+                    "code": "GOS",
+                    "description": "Government goods and services embassies etc."
+                    }
+                    ,
+                    {
+                    "code": "GRI",
+                    "description": "Government related income taxes tariffs capital transfers etc."
+                    }
+                    ,
+                    {
+                    "code": "IFS",
+                    "description": "Information Services"
+                    }
+                    ,
+                    {
+                    "code": "IGD",
+                    "description": "Intra group dividends"
+                    }
+                    ,
+                    {
+                    "code": "IGT",
+                    "description": "INTER GROUP TRANSFER"
+                    }
+                    ,
+                    {
+                    "code": "IID",
+                    "description": "Intra group interest on debt"
+                    }
+                    ,
+                    {
+                    "code": "INS",
+                    "description": "Insurance services"
+                    }
+                    ,
+                    {
+                    "code": "IOD",
+                    "description": "Income on deposits"
+                    }
+                    ,
+                    {
+                    "code": "IOL",
+                    "description": "Income on loans"
+                    }
+                    ,
+                    {
+                    "code": "IPC",
+                    "description": "Charges for the use of intellectual property royalties"
+                    }
+                    ,
+                    {
+                    "code": "IPO",
+                    "description": "IPO Subscriptions"
+                    }
+                    ,
+                    {
+                    "code": "IRP",
+                    "description": "INTEREST RATE SWAP PAYMENTS"
+                    }
+                    ,
+                    {
+                    "code": "IRW",
+                    "description": "INTERST RATE UNWIND PAYMENTS"
+                    }
+                    ,
+                    {
+                    "code": "ISH",
+                    "description": "Income on investment funds shares"
+                    }
+                    ,
+                    {
+                    "code": "ISL",
+                    "description": "Interest on securities more than a year"
+                    }
+                    ,
+                    {
+                    "code": "ISS",
+                    "description": "Interest on securities less than a year"
+                    }
+                    ,
+                    {
+                    "code": "ITS",
+                    "description": "Computer Services"
+                    }
+                    ,
+                    {
+                    "code": "KAS",
+                    "description": "Leave Salary"
+                    }
+                    ,
+                    {
+                    "code": "LEA",
+                    "description": "Leasing abroad RFS repos on foreign securities"
+                    }
+                    ,
+                    {
+                    "code": "LEL",
+                    "description": "Leasing in the UAE RLS Repos on securities issued by residents"
+                    }
+                    ,
+                    {
+                    "code": "LIP",
+                    "description": "Loan Interest Payments"
+                    }
+                    ,
+                    {
+                    "code": "LLA",
+                    "description": "Loans - Drawings or Repayments on loans extended to n-residents - long term"
+                    }
+                    ,
+                    {
+                    "code": "LLL",
+                    "description": "Loans - Drawings or Repayments on foreign loans extended to residents - long term"
+                    }
+                    ,
+                    {
+                    "code": "LNC",
+                    "description": "Loan Charges"
+                    }
+                    ,
+                    {
+                    "code": "LND",
+                    "description": "Loan Disbursements"
+                    }
+                    ,
+                    {
+                    "code": "MCR",
+                    "description": "Monetary Claim Reimbursements Medical Insurance or Auto Insurance etc."
+                    }
+                    ,
+                    {
+                    "code": "MWI",
+                    "description": "MOBILE WALLET CASH IN"
+                    }
+                    ,
+                    {
+                    "code": "MWO",
+                    "description": "MOBILE WALLET CASH OUT"
+                    }
+                    ,
+                    {
+                    "code": "MWP",
+                    "description": "MOBILE WALLET PAYMENTS"
+                    }
+                    ,
+                    {
+                    "code": "OAT",
+                    "description": "OWN ACCOUNT TRNSFER"
+                    }
+                    ,
+                    {
+                    "code": "OTS",
+                    "description": "Other modes of transport"
+                    }
+                    ,
+                    {
+                    "code": "OVT",
+                    "description": "Overtime"
+                    }
+                    ,
+                    {
+                    "code": "PEN",
+                    "description": "Pension"
+                    }
+                    ,
+                    {
+                    "code": "PIN",
+                    "description": "Personal Investments"
+                    }
+                    ,
+                    {
+                    "code": "PIP",
+                    "description": "Pro?ts on Islamic products"
+                    }
+                    ,
+                    {
+                    "code": "PMS",
+                    "description": "Professional and management consulting services"
+                    }
+                    ,
+                    {
+                    "code": "POR",
+                    "description": "Refunds or Reversals on IPO subscriptions"
+                    }
+                    ,
+                    {
+                    "code": "POS",
+                    "description": "POS Merchant Settlement"
+                    }
+                    ,
+                    {
+                    "code": "PPA",
+                    "description": "Purchase of real estate abroad from residents"
+                    }
+                    ,
+                    {
+                    "code": "PPL",
+                    "description": "Purchase of real estate in the UAE from n-residents"
+                    }
+                    ,
+                    {
+                    "code": "PRP",
+                    "description": "PROFIT RATE SWAP PAYMENTS"
+                    }
+                    ,
+                    {
+                    "code": "PRR",
+                    "description": "Pro?ts or rents on real estate"
+                    }
+                    ,
+                    {
+                    "code": "PRS",
+                    "description": "Personal cultural audio visual and recreational services"
+                    }
+                    ,
+                    {
+                    "code": "PRW",
+                    "description": "PROFIT RATE UNWIND PAYMENTS"
+                    }
+                    ,
+                    {
+                    "code": "RDS",
+                    "description": "Research and development services"
+                    }
+                    ,
+                    {
+                    "code": "RNT",
+                    "description": "Rent Payments"
+                    }
+                    ,
+                    {
+                    "code": "SAA",
+                    "description": "Salary Advance"
+                    }
+                    ,
+                    {
+                    "code": "SAL",
+                    "description": "Salary"
+                    }
+                    ,
+                    {
+                    "code": "SCO",
+                    "description": "Construction"
+                    }
+                    ,
+                    {
+                    "code": "SLA",
+                    "description": "Loans - Drawings or Repayments on loans extended to n-residents - short term"
+                    }
+                    ,
+                    {
+                    "code": "SLL",
+                    "description": "Loans - Drawings or Repayments on foreign loans extended to residents - short term"
+                    }
+                    ,
+                    {
+                    "code": "STR",
+                    "description": "Travel"
+                    }
+                    ,
+                    {
+                    "code": "STS",
+                    "description": "Sea transport"
+                    }
+                    ,
+                    {
+                    "code": "SVI",
+                    "description": "STORED VALUE CARD CASH?IN"
+                    }
+                    ,
+                    {
+                    "code": "SVO",
+                    "description": "STORED VALUE CARD CASH-OUT"
+                    }
+                    ,
+                    {
+                    "code": "SVP",
+                    "description": "STORED VALUE CARD PAYMENTS"
+                    }
+                    ,
+                    {
+                    "code": "TCP",
+                    "description": "Trade credits and advances payable"
+                    }
+                    ,
+                    {
+                    "code": "TCR",
+                    "description": "Trade credits and advances receivable"
+                    }
+                    ,
+                    {
+                    "code": "TCS",
+                    "description": "Telecommunication Services"
+                    }
+                    ,
+                    {
+                    "code": "TKT",
+                    "description": "Tickets"
+                    }
+                    ,
+                    {
+                    "code": "TOF",
+                    "description": "Transfer of funds between persons Normal and Juridical"
+                    }
+                    ,
+                    {
+                    "code": "TTS",
+                    "description": "Technical trade-related and other business services"
+                    }
+                    ,
+                    {
+                    "code": "UTL",
+                    "description": "Utility Bill Payments"
+                    }
+                    ]
+        }
+    
